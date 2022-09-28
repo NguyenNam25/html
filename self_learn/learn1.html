@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- 
+    1. h1 - h6 - heading
+    2. p - paragraph
+    3. img - image
+    4. a - anchor - tạo đường dẫn liên kết
+    5. ul, ol, li - unordered list, list - tạo danh sách
+    6. table - tạo bảng
+    7. input - tạo phần nhập, điền,...
+    8. button - nút dạng như bấm vào để đăng nhập, đăng ký
+    9. div - tạo một khối bao quanh để kiểm soát các phần, khối logic
+ -->
+<html>
+    <!-- Phần đầu-->
+    <head>
+        <title>Dragkingno1 Livestream</title>
+        <!-- hỗ trợ gõ tiếng Việt -->
+        <meta charset="utf-8"> 
+        <!-- liên kết với file css -->
+        <link rel="stylesheet" href="learn1css.css">
+        <!-- <style>
+            /* gõ phần của CSS vào đây */
+            h1 {
+                color:blueviolet;
+                font-size: 50px;
+                font
+            }
+        </style> -->
+    </head>
+    <!-- Phần thân -->
+    <body>
+
+        <h1>Cậu học sinh Nguyễn Tiến Dũng</h1>
+        <!-- <h1 style="color: red; font-size: 30px">Cậu học sinh Nguyễn Tiến Dũng</h1> (Dùng css inline) -->
+        <!-- <h1 id="first-heading">Cậu học sinh Nguyễn Tiến Dũng</h1> (đặt ID cho heading để dùng css cho duy nhất phần tử đó) -->
+        <!-- <h1 class="second-heading">Cậu học sinh Nguyễn Tiến Dũng</h1> (đặt Class cho heading để dùng css cho nhiều phần tử sử dụng cùng một css) -->
+        <!-- 
+            Thứ tự ưu tiên trong Css
+            1. Đối với Internal và External thì cái nào viết sau thì sẽ được dùng;
+            2. Inline > id > class > tag;
+            3. Universal selector (css cho toàn bộ danh sách)
+            4. Universal inherited (những phần tử nằm trong phần tử được gọi thừa hưởng css đấy)
+            5. thêm !important vào sau thuộc tính của css sẽ được ưu tiên nhất
+         -->
+        <input type="text">
+        <input type="checkbox">
+        <input type="radio">
+        <!-- Khi đặt cùng tên (name="") cho nhiều input dạng radio thì chỉ chọn được một cái -->
+
+        <p>Nguyễn Tiến Dũng là một cậu sinh viên học tại Đại học Bách Khoa Hà Nội với số điểm cao nhất cả nước. Không những vậy cậu còn rất đẹp trai</p>
+        <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.6435-9/83081498_1037756973252088_6676886798934736896_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=wSTro80-M0QAX9g7mDN&tn=suBHPC_1ksZ4yyup&_nc_ht=scontent.fhan5-6.fna&oh=00_AT_Z9MY4OoTIdA0a8IUivWJWjzCMzAlcBhVIbS0htPyKtw&oe=630802CB" alt="Ảnh Dũng đẹp trai">
+        <ul>
+            <li><a href="https://www.facebook.com/photo.php?fbid=1037756969918755&set=pb.100010533851968.-2207520000..&type=3">Facebook</a></li>
+            <li><a href="https://lmssplus.com/profile/dream1712">Lmht profile</a></li>
+        </ul>
+    </body>
+</html>

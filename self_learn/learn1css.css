@@ -1,0 +1,26 @@
+h1 {
+    color:blueviolet;
+    font-size: 50px;
+}
+
+/* sử dụng ID
+#first-heading {
+    color:green;
+    font-size: 50px;
+}*/
+/* sử dụng Class
+.second-heading {
+    color: red;
+    font-size: 50px;
+}*/
+/* Universal selector 
+*{
+    color: red;
+    font-size: 50px;
+} */
+/* 
+h1 {
+    color:blueviolet !important;
+    font-size: 50px;
+}
+ */

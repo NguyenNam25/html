@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <!-- 
+        relative unit
+    1. %: bằng bao nhiêu phần trăm thẻ chứa nó (100% font-size = 16px)
+    2. rem: phụ thuộc vào thẻ html
+    3. em: phụ thuộc vào thẻ gần nhất chứa nó có định nghĩa unit
+    4. vw: viewport width, vh: viewport height; bằng bao nhiêu phần trăm kích thước tình duyệt
+    -->
+    <head>
+        <title>Dragkingno1 Livestream</title>
+        <meta charset="utf-8"> 
+        <link rel="stylesheet" href="learn2css.css">
+        <style>
+            html{
+                font-size: 20;
+            }
+            .box{
+                width: 60px;
+                height: 60px;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                /* float: left; viết trên cùng một dòng */
+            }
+            h1{
+                font-size: 1rem;
+            }
+            .box1{
+                background-color: #333;
+            }
+            .box2{
+                background-color: orange;
+            }
+            .box3{
+                background-color: firebrick;
+                padding: 10px;
+                border-width: 10px;
+                border-style: solid;
+                border-color: #333;
+                border-radius: 10px;
+                margin-top: 10px;
+                /* border: 10px solid #333 */
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <div class="box"></div> -->
+        <div>
+            <!-- <h1 >Hello!!!</h1> -->
+        </div>
+        <div class="box box1">box1</div>
+        <div class="box box2">box2</div>
+        <div class="box box3">box3</div>
+    </body>
+</html>

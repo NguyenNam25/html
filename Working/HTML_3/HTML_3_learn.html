@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--  
+    1. Tạo bảng: <table>
+        - tạo các row: <tr>
+        - tạo header cell: <th>
+        - tạo data cell: <td>
+        - muốn merge cell theo hàng: dùng thuộc tính colspan="". Trong "" là con số hiển thị số cột muốn merge
+        - muốn merge cell theo cột: dùng thuộc tính rowspan="". Trong "" là con số hiển thị số hàng muốn merge
+        - Cell padding: khoảng cách từ đường viền tới nội dung tron các ô
+        - Cell spacing: khoảng cách giữa các ô với nhau
+    2. From data entry to response - thu thập thông tin dữ liệu từ người dùng
+        - Dùng thẻ <form>:
+            - <input type="text">: nhập dữ liệu text trên 1 dòng
+            - <textarea>...</textarea>: nhập dữ liệu trên nhiều dòng
+            - <input type="password">: nhập dữ liệu dạng mật khẩu để che dấu  hiển thị
+            - dùng thẻ <br> để xuống dòng, dùng một số thuộc tính: name(đặt name cho nó), cols,row(mở rông text area)
+            - <input type="submit" value="">: gửi dữ liệu tới server 
+            - <input type="reset" value="">: nội dung nhập vào được reset về ban đầu
+            - thuộc tính value: nhẫn hiển thị lên trên nút, đặt giá trị cho các phần tử
+            - <input type="checkbox">: chọn được nhiều phần tử
+            - <input type="radio">: chọn được 1 phần tử
+            - Khi đặt cùng tên (name="") cho nhiều input dạng radio để chỉ chọn được một cái
+            - Drop-down menus:
+                - <select>
+                - <optgroup label="">: phân nhóm các phần tử;
+                - <option>: các phần tử của menu.
+            - File selection control
+                - <input type="file">: chọn file upload lên trên máy chủ
+            - Hidden control
+                - <input type="hidden">: gửi lên trên máy chủ nhưng che dấu với người dùng
+            - Date and time controls
+                - <input type="date">: ngày tháng
+                - <input type="time">: giờ
+                - <input type="datetime">: ngày tháng giờ với time-zone
+                - <input type="datetime-local">: ngày tháng giờ với không có time-zone
+                - <input type="month">: chỉ định 1 tháng trong 1 năm
+                - <input type="week">: chỉ định 1 tuần trong 1 năm
+            - Numerical inputs
+                - <input type="number">: nhập số
+                - <input type="range">: chọn số trong vùng giá trị
+            - Color selector
+                - <input type="color">: chọn màu
+            *** Phải đặt name cho các thẻ để nó có thể gửi dữ liệu lên trên máy chủ
+            - Form Accessibility Features
+                - <label for="">: trong for điển id đã đặt cho các input
+            - đặt thuộc tính method="Post" cho form để không hiển thị các nội dung lên cho người dùng mà chỉ gửi về máy chủ
+            - đặt thuộc tính action="" để chỉ ra file script trên máy chủ nhận dữ liệu nhập vào
+-->        
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        
+    </body>
+</html>
